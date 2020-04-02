@@ -1,0 +1,24 @@
+{
+  "name": "ovaq/oops-ds",
+  "description": "oops concepts and data structure implementation",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.2",
+    "slim/slim": "^4.0",
+    "slim/psr7": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "com\\ovaq\\core\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "com\\ovaq\\test\\": "test/"
+    }
+  }
+}
